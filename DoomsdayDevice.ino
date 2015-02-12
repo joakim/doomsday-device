@@ -12,7 +12,7 @@ void loop() {
   if (value < 100 || value > 1000 || count > 5) {
     if (count == trigger) {
       Keyboard.press(KEY_RETURN);
-      delay(100);
+      delay(200);
       Keyboard.release(KEY_RETURN);
 
       count = 0;
