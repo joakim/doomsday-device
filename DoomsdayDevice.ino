@@ -1,7 +1,11 @@
 // Incoming audio signal.
 int audio;
+
+// Seconds since button was pressed.
 int count = 0;
-int trigger = 8;
+
+// Seconds to wait before triggering.
+int triggerOn = 9;
 
 void setup() {
   Keyboard.begin();
@@ -15,9 +19,12 @@ void loop() {
     audio = 0;
   }
 
-  if (value < 100 || value > 1000 || count > 5) {
-    if (count == trigger) {
+  // Act when an audio signal is being received and count the seconds passing.
+  if (audio < 10 || audio > 200) {
+    count++;
+
     // When X number of seconds has passed, hit Enter and joystick button.
+    if (count == triggerOn) {
       Joystick.button(1, 1);
       Keyboard.press(KEY_RETURN);
 
@@ -28,13 +35,12 @@ void loop() {
 
       count = 0;
     }
-    else {
-      count++;
-    }
   }
   else if (count > 0) {
+    // Reset the counter once there's no audio signal being received anymore.
     count = 0;
   }
 
+  // Wait a second..
   delay(1000);
 }
