@@ -11,8 +11,13 @@ void loop() {
 
   if (value < 100 || value > 1000 || count > 5) {
     if (count == trigger) {
+    // When X number of seconds has passed, hit Enter and joystick button.
+      Joystick.button(1, 1);
       Keyboard.press(KEY_RETURN);
+
       delay(200);
+
+      Joystick.button(1, 0);
       Keyboard.release(KEY_RETURN);
 
       count = 0;
