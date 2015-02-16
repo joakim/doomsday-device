@@ -13,7 +13,7 @@ Perfect for deploying code.
 
 ## What?
 
-The device is actually a USB hub that I bought [from Japan](http://www.zariganiworks.co.jp/taroshooten/catalog/index.html). But all it did was [play a lame sound effect](https://www.youtube.com/watch?v=qDRRYdksG9s). So I modded it to register as a USB keyboard and hit Enter instead of playing a sound. Much better!
+The device is actually a USB hub that I bought [from Japan](http://www.zariganiworks.co.jp/taroshooten/catalog/index.html). But all it did was [play a sound effect](https://www.youtube.com/watch?v=qDRRYdksG9s). So I modded it to register as a USB keyboard and hit Enter instead of playing the sound. Much better!
 
 
 ## How?
