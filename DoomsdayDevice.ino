@@ -1,4 +1,5 @@
-int value;
+// Incoming audio signal.
+int audio;
 int count = 0;
 int trigger = 8;
 
@@ -7,7 +8,12 @@ void setup() {
 }
 
 void loop() {
-  value = analogRead(0);
+  // Read the incoming audio signal and convert it from 10-bit to 8-bit.
+  audio = analogRead(A0);
+  audio = (audio + 1) / 4 - 1;
+  if (audio < 0) {
+    audio = 0;
+  }
 
   if (value < 100 || value > 1000 || count > 5) {
     if (count == trigger) {
