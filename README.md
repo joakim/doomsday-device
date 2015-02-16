@@ -31,3 +31,8 @@ I could't think of a single reason _not_ to.
 They're unfortunately sold out and very hard to find. They were made by [Taro Shooten](http://www.zariganiworks.co.jp/taroshooten/catalog/index.html), two Japanese guys who make toys for a living. I got hold of mine from the Japanese Amazon, but it was the last one they had, and I haven't seen it anywhere else. Maybe try Ebay?
 
 The publisher of the thing is Cube Works. They have more information and a slick video of the device on [their website](http://www.cube-works.co.jp/works/index_sub_e.html?/works/works_menu_e.html), select Taro Shooten and scroll down.
+
+
+## License
+
+[The End Of The World License (EOTW)](https://github.com/joakim/doomsday-device/blob/master/LICENSE)
