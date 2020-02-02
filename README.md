@@ -1,14 +1,16 @@
 # The Doomsday Device
 
-### Deploy like there's no tomorrow.
+### Deploy like there's no tomorrow!
 
-![Doomsday device](http://i.imgur.com/PsQPON1.gif)
+![Doomsday device](https://raw.githubusercontent.com/joakim/doomsday-device/master/doomsdaydevice.jpg)
 
 It's an extremely elaborate way to press Enter.
 
 You flip the two switches, turn the key, lift the lid and push the red button. A red light starts to flash, and once it stops, it goes… `[Enter]`
 
 Perfect for deploying code.
+
+See also [the project page on Hackaday](https://hackaday.io/project/2367-doomsday-device).
 
 
 ## What?
@@ -30,7 +32,7 @@ I could't think of a single reason _not_ to.
 
 They're unfortunately sold out and very hard to find. They were made by [Taro Shooten](http://www.zariganiworks.co.jp/taroshooten/catalog/index.html), two Japanese guys who make handmade toys. I got hold of mine from the Japanese Amazon, but it was the last one they had, and I haven't seen it anywhere else. Maybe try Ebay?
 
-The publisher of the thing is Cube Works. They have more information and a slick video of the device on [their website](http://www.cube-works.co.jp/works/index_sub_e.html?/works/works_menu_e.html), select Taro Shooten and scroll down.
+The publisher of the thing is [Cube Works](http://www.cube-works.co.jp/). They have more information and a slick video of the device on [this page](http://www.cube-works.co.jp/works/index_sub_e.html?/works/works_menu_e.html) (select Taro Shooten and scroll down).
 
 
 ## License
